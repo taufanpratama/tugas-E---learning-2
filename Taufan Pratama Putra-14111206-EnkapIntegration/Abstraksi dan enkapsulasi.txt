@@ -1,0 +1,26 @@
+Abtraksi
+
+- memudahkan penggunaan 
+  hanya perlu tahu apa yang dilakukan suatu prosedur P
+- memudahkan modifikasi
+  rincian penulisan P dapat diubah tabpa mengganggu program secara keseluruhan 
+  (di mana saja pada pemanggilan-pemanggian P).
+
+Secara umum pendefinisian abstraksi dengan baik pada perancangan program 
+dapat mengendalikan kompleksitas program serta meningkatkan modifiabilitas.
+
+Enkapsulasi
+
+Penyembunyian informasi (enkapsulasi) baik variabel ataupun metode 
+dalam modul-modul bermanfaat dalam:
+
+- menghindari interferensi entitas lokal dalam modul terhadap 
+  entitas bernama sama di luar modul
+    
+- menghindari interferensi entitas  diluar modul terhadap entitas 
+  lokal dalam modul terhadap entitas bernama sama
+
+Bahasa berorientasi obyek semacam C++ atau Java mengakomodasikan enkapsulasi 
+ini dengan baik dengan deklarasi private. 
+Dalam Java terdapat tingkatan lebih lanjut sepain private, 
+yaitu: package, protected, baru kemudian public. 
